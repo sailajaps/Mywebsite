@@ -1,0 +1,62 @@
+<!DocType html>
+<head>
+ <meta charset = "UTF-8">
+  <link rel = "stylesheet"   type = "text/css"   href = "Loginscreen.css" />
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+     <script src="Loginscreen.js"></script>
+     <title>Login Page</title>
+       <div class="Mainmenu" >
+        <a href="https:\\www.google.com" style="color: black;font-size: 18px;text-decoration: None;">ABCD Company</a>
+      </div>
+     <h3> 
+        <div class="navbar">
+           <a href="landingpage.html" class= "links" style="color: white">Home</a>&nbsp; &nbsp; &nbsp; 
+           <a href ="" class="links" style="color: white">Programs </a> &nbsp; &nbsp; &nbsp; 
+           <div class="menuitem1">
+           <button class="item1btn" class="links" font style="font-size: 16px;font-family: Arial, Helvetica, sans-serif;color: white;">Classes</button>
+           <div class="subitemlist">
+              <a href="">kindergarten</a>
+              <a href="">Middle school</a>
+           </div>
+        </div>
+           <a href="Activites.html" class="links" style="color: white"> Activities</a> &nbsp; &nbsp;  &nbsp; &nbsp;
+           <a href ="subscribe.html" class="links" style="color: white">Subscribe </a>&nbsp; &nbsp; &nbsp; 
+           <a href ="" class="links" style="color: white">About Us </a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+           <a href ="Loginscreen.html" class="links" style="color: white">Login</a>  &nbsp; &nbsp; 
+           <a href ="signUp.html" class="links" style="color: white">Register</a>
+           </div>
+     </h3>
+     </h3>
+
+
+       </div>
+</head>
+<body class ="Login-screen">
+  <div class="Login-box">
+    <form id="form-id" method ="post" name =" Login"><br>
+         <h3> Login Here!</h3>
+        <br><br>
+        <label>User Name </label>
+        <input type="text" name ="uname" id="username" required ><br>
+        <br><br>
+        <label>Password &nbsp; </label>
+        <input type="password" name="pwd" id="password" required><br>
+        <br><br><br>
+        <input type ="button" value="Login" id="submit"  Onclick="Validate()"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" Value="Register" id="signup" Onclick="window.location.href = 'C:/Users/spinisetty/Documents/MyFirstProject/signUp.html';"/>
+        <br><br>
+        <span id="form-mandatory" style="font-size:14px";></span><br>
+        <span id="login_failed"></span><br>
+        <a href="C:/Users/spinisetty/Documents/MyFirstProject/ResetPwd.html" > Forget Password </a><br><br>
+    </form>
+  </div>
+  <div id="vedio">
+    <video height="250px" width="150px" >
+      <source src="C:/Users/spinisetty/Desktop/test.mp4" type="mp4">
+
+    </video>
+  </div>
+</body>
+</html>
+
+

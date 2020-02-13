@@ -1,0 +1,122 @@
+.Login-screen
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:lightgrey    
+}
+.Login-box
+{
+    background-image: url("C:/Users/spinisetty/Desktop/bg.jpg");
+    background-repeat: no-repeat;
+    text-align:center;
+    margin-left: 400pt;
+    margin-right: 400pt;
+    margin-top: 100pt;
+    margin-bottom: 200pt;
+    height: 500pt;;
+
+}
+#form-id
+{
+    vertical-align: middle;
+    text-align: center;
+    
+}
+.links
+{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.links:hover 
+{
+       font-style: italic;
+        
+}
+.links h3 :hover
+{color: blue;}
+
+.Mainmenu
+{
+   background-image: url("C:/Users/spinisetty/Desktop/bg.jpg");
+    background-repeat: repeat;
+       text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+   background-position:left;
+   height: 120px;
+   text-align:center;
+ 
+}
+.Logo1 
+{
+    max-width: 250px;
+}
+.sendemail
+{
+   font-style: normal; font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+}
+.navbar
+{
+overflow: hidden;
+background-color:chocolate; 
+
+
+}
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.menuitem1
+{
+
+ font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+position: absolute;
+  display: inline-block;
+  
+}
+.menuitem1 .item1btn
+{
+    font-size: 16px; 
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+        margin: 0;
+  }
+  .navbar  a:hover, .menuitem1 a:hover .item1btn {
+    background-color: cornflowerblue;
+  }
+  
+  .subitemlist {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    background-color:cornflowerblue;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .subitemlist a {
+    color:chocolate;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .subitemlist a:hover {
+    background-color: #eee;
+    
+  }
+  
+  .menuitem1:hover .subitemlist {
+    display: block;
+  }
