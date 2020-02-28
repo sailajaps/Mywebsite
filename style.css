@@ -33,7 +33,7 @@
   padding: 10px;
   text-decoration:none;
   border-radius: 12px;
-  width:125px;
+  width:175px;
   border-color:#008ACC;
   height: 50px;
   font-size: 15px;
@@ -111,6 +111,7 @@
 {
   height:500px;
   padding: 50px;;
+  margin-left: 40px;;
 
 }
 .picture-table-all
@@ -190,4 +191,46 @@ p{
   text-align:center;
   font-size: 20px;
  
+}
+.pic-links
+{
+  text-align: left;
+  font-size: 20px;
+  color:#F65C78
+}
+h5
+{
+  font-size: medium;
+  color:#F65C78
+}
+.image-advertisement
+{
+  padding-top: 250px;
+  margin-left: 250px;
+  
+}
+.image-open
+{
+margin-left: 50px;
+padding: 50px;
+position:relative;
+   
+      
+      display:block;
+      cursor:pointer;
+      overflow:hidden;
+}
+
+.contact-form
+{
+  
+  background-color: #F65C78;
+   height: 400px;
+}
+.contact-form-table
+{
+
+  padding-top: 152px;;
+  margin-left: 50px;;
+  column-width: 250px;;
 }
