@@ -147,7 +147,7 @@
 }
 h4
 {
-  display: inline;
+  display:inline;
   color:rebeccapurple;
   font-size: 45px;
   text-align: center;
@@ -182,6 +182,7 @@ p{
   font-style: bold;
   font-size: larger;
   text-align:center;
+  display: inline;
   
 }
 .hithere
@@ -215,22 +216,53 @@ margin-left: 50px;
 padding: 50px;
 position:relative;
    
-      
-      display:block;
-      cursor:pointer;
-      overflow:hidden;
-}
+ }
 
 .contact-form
 {
   
   background-color: #F65C78;
-   height: 400px;
+   height: 600px;
 }
 .contact-form-table
 {
 
-  padding-top: 152px;;
-  margin-left: 50px;;
-  column-width: 250px;;
+  padding-top: 52px;
+  margin-left: 400px;
+  column-width: 250px;
+  position: absolute;
+}
+.name 
+{
+  height: 50px;
+  width:350px;
+  border-radius: 10px;
+  border:white;
+}
+.email
+{
+  height: 50px;
+  width:350px;
+  border-radius: 10px;
+  border:white;;
+}
+.message
+{
+  height: 115px;
+  width:350px;  border:white;
+  border-radius: 10px;
+}
+.last-container
+{
+  height: 200px;
+  text-align: center;
+  
+  padding-top: 50px;;
+}
+.footer
+{
+  background-color:#5a5a5a;
+  height: 50px;
+  text-align: center;
+  padding-top: 50px;
 }
