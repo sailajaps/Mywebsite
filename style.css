@@ -69,12 +69,14 @@
 .links-container
 {
   height:500px;
+  padding-top: 100px;
   display: inline-block;
+  
 }
 .links-container-table
 {
   text-align: center;
-  margin-left:125px;
+  margin-left:190px;
   border-spacing: 50px;
   align-self: center;
   
@@ -109,10 +111,10 @@
 }
 .picture-table
 {
-  height:500px;
+  height:800px;
   padding: 50px;;
   margin-left: 40px;;
-
+  border-spacing: 50px;;
 }
 .picture-table-all
 {
@@ -130,6 +132,7 @@
   width:350px;
   background-color: whitesmoke;
   border-radius:25px;
+  
 }
 .table-2
 {
@@ -207,7 +210,8 @@ h5
 .image-advertisement
 {
   padding-top: 250px;
-  margin-left: 250px;
+  margin-left: 50px;
+  width:500px;
   
 }
 .image-open
@@ -227,10 +231,10 @@ position:relative;
 .contact-form-table
 {
 
-  padding-top: 52px;
-  margin-left: 400px;
-  column-width: 250px;
-  position: absolute;
+  padding-top: 152px;
+  margin-left: 100px;
+  column-width: 900px;
+  position: relative;
 }
 .name 
 {
@@ -261,8 +265,8 @@ position:relative;
 }
 .footer
 {
-  background-color:#5a5a5a;
-  height: 50px;
+  background-color:black;
+  height: 100px;
   text-align: center;
   padding-top: 50px;
 }
