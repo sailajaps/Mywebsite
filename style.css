@@ -1,7 +1,7 @@
 .logo
 {
   height :100px;
-  margin-left: 150px;
+ 
   padding-top: 10px;
   background-color: white;
   display: inline-block;
@@ -78,8 +78,8 @@
   text-align: center;
  
   border-spacing: 50px;
-  align-self: center;
   
+ 
 }
 .links-container-image
 {
@@ -112,17 +112,16 @@
 .picture-table
 {
   height:800px;
-  padding: 50px;;
  
-  border-spacing: 50px;;
 }
 .picture-table-all
 {
 
     text-align: center;
-   
+    border-spacing: 50px 0;
    border-color: #5a5a5a;
    height: 800px;
+   border-collapse: separate;
   
    
 }
@@ -227,12 +226,13 @@ padding: 10px;
   
   background-color: #F65C78;
    height: 600px;
+   
 }
 .contact-form-table
 {
 
-  padding-top: 152px;
-  margin-left: 100px;
+  padding : 152px;
+  margin-left: 200px;
   
   
 }
