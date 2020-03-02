@@ -76,7 +76,7 @@
 .links-container-table
 {
   text-align: center;
-  margin-left:190px;
+ 
   border-spacing: 50px;
   align-self: center;
   
@@ -91,7 +91,7 @@
 }
 .links-container-left
 {
- margin-left: 10px;
+ 
  float: left;
  }
 .links-container-right
@@ -113,14 +113,14 @@
 {
   height:800px;
   padding: 50px;;
-  margin-left: 40px;;
+ 
   border-spacing: 50px;;
 }
 .picture-table-all
 {
 
     text-align: center;
-   margin-left:125px;
+   
    border-color: #5a5a5a;
    height: 800px;
   
@@ -217,7 +217,7 @@ h5
 .image-open
 {
 
-padding: 150px;
+padding: 10px;
 
 
  }
@@ -269,4 +269,28 @@ padding: 150px;
   height: 100px;
   text-align: center;
   padding-top: 50px;
+}
+.image-hover:hover
+
+{
+ 
+	opacity: 1;
+	-webkit-animation: flash 5s;
+	animation: flash 5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
 }
